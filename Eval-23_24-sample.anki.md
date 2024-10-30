@@ -159,7 +159,7 @@ values, which of the following plots has been used in the assignment?
 It is created a linear regression model as follows:
 
 ```python
-from sklearn.linear model import LinearRegression
+from sklearn.linear_model import LinearRegression
 lr = LinearRegression()
 ```
 
@@ -202,29 +202,29 @@ How would you select the 2 most relevant features aiming at obtaining a reduced 
 * [ ] a)
 
     ```python
-    columns selected = np.array([2, 5])
-    X train reduced = X train s [:,columns selected]
+    columns_selected = np.array([2, 5])
+    X_train_reduced = X_train_s[:,columns_selected]
     ```
 
 * [ ] b)
 
     ```python
-    columns selected = np.array([3, 4])
-    X train reduced = X train s [:,columns selected]
+    columns_selected = np.array([3, 4])
+    X_train_reduced = X_train_s[:,columns_selected]
     ```
 
 * [ ] c)
 
     ```python
-    columns selected = np.array([2, 4])
-    X train reduced = X train s [:,columns selected]
+    columns_selected = np.array([2, 4])
+    X_train_reduced = X_train_s[:,columns_selected]
     ```
 
 * [ ] d)
 
     ```python
-    columns selected = np.array([3, 5])
-    X train reduced = X train s [:,columns selected]
+    columns_selected = np.array([3, 5])
+    X_train_reduced = X_train_s[:,columns_selected]
     ```
 
 ***
@@ -232,8 +232,8 @@ How would you select the 2 most relevant features aiming at obtaining a reduced 
 * [x] c)
 
     ```python
-    columns selected = np.array([2, 4])
-    X train reduced = X train s [:,columns selected]
+    columns_selected = np.array([2, 4])
+    X_train_reduced = X_train_s[:,columns_selected]
     ```
 
 ## <!-- MARK: Eval23-24 sample Q10 -->
